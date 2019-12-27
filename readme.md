@@ -50,7 +50,7 @@ Open another termial and take a look at Kafka topics to see that all messages ar
 And the processed messages will be stored in the `events-processed` topic:
 
 ```bash
-> docker-compose exec kafka kafka-console-consumer --bootstrap-server localhost:9092 --topic events-processed 
+> docker-compose exec kafka kafka-console-consumer --bootstrap-server localhost:9092 --topic events-processed
 
 {"processed_id":21,"time":"2019-08-29T19:42:31.4464598Z"}
 {"processed_id":22,"time":"2019-08-29T19:42:32.4501767Z"}
