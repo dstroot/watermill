@@ -17,8 +17,7 @@ var (
 	brokers      = []string{"kafka:9092"}
 	consumeTopic = "events"
 	publishTopic = "events-processed"
-
-	logger = watermill.NewStdLogger(
+	logger       = watermill.NewStdLogger(
 		true,  // debug
 		false, // trace
 	)
